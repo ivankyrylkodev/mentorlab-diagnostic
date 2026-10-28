@@ -126,21 +126,6 @@ branch.main.remote=origin
 branch.main.merge=refs/heads/main
 ivankyrylko@MacBook-Pro-Ivan diagnostic % git config --global init.defaultbranch
 ivankyrylko@MacBook-Pro-Ivan diagnostic % git config --global core.defaultbranch
-ivankyrylko@MacBook-Pro-Ivan diagnostic % git -C work/diagnostic log --oneline
-збій: cannot change to 'work/diagnostic': No such file or directory
-ivankyrylko@MacBook-Pro-Ivan diagnostic % cd ./
-ivankyrylko@MacBook-Pro-Ivan diagnostic % git -C work/diagnostic log --oneline
-збій: cannot change to 'work/diagnostic': No such file or directory
-ivankyrylko@MacBook-Pro-Ivan diagnostic % ls
-D-001		README.md
-ivankyrylko@MacBook-Pro-Ivan diagnostic % cd ./
-ivankyrylko@MacBook-Pro-Ivan diagnostic % git -C work/diagnostic log --oneline
-збій: cannot change to 'work/diagnostic': No such file or directory
-ivankyrylko@MacBook-Pro-Ivan diagnostic % ls
-D-001		README.md
-ivankyrylko@MacBook-Pro-Ivan diagnostic % cd ..
-ivankyrylko@MacBook-Pro-Ivan work % git -C work/diagnostic log --oneline
-збій: cannot change to 'work/diagnostic': No such file or directory
 ivankyrylko@MacBook-Pro-Ivan work % cd ..
 ivankyrylko@MacBook-Pro-Ivan mentor-lab % git -C work/diagnostic log --oneline
 8005979 (HEAD -> main, origin/main) Add README and .gitignore
