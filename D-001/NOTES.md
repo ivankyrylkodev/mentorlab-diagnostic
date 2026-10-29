@@ -241,5 +241,6 @@ none
 ## Time
 Learning 65 min
 Exersises 30 min
+Variation started: HH:MM
 
 
