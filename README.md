@@ -3,4 +3,4 @@ I wrote it MYSELF!!
 
 It is training
 
- это тренировочный репозиторий с диагностическими заданиями для Mentor Lab
+This is a practice repository containing diagnostic tasks for Mentor Lab.
