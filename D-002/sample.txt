@@ -1,0 +1,5 @@
+Hello world
+This is my first Python program
+
+It counts lines, words and empty lines.
+Привіт, світе!
