@@ -1,7 +1,7 @@
 | Step | My prediction | What happened | Right/wrong + why |
 |---|---|---|---|
 | A1 | Folder | There was created file a.txt in folder /git-lab with text. Status command said that this folder is local (not on staging area) and untracked files. | I think I was right about everything except folder in which whould be created folder /git-lab. I thought its path would be /Users/ivankyrylko/mentor-lab/work/diagnostic/git-lab but its path is /Users/ivankyrylko/git-lab. |
-| A2 |  Staging area | There was added a.txt to stagging area. Status command said that this file is listed under "Changes to be committed". | I was partly right. I think that this file was on stagging area but "доебистый" mentor said that this file is in folder too, what was obvious for me. |
+| A2 |  Staging area | There was added a.txt to stagging area. Status command said that this file is listed under "Changes to be committed". | I was partly right. I think that this file was on stagging area but nitpicking mentor said that this file is in folder too, what was obvious for me. |
 | A3 |  Folder and Local History | There was added a.txt to Local History. Status command said that there is nothing to commit. | I was partly right. I was incorrect about answer "git status". I thought it wold say something about push. |
 | A4 |  Folder / Local History | There was changed a.txt. Status command said that it should be commited. | I was right. |
 | A5 |  Folder / Local History | There was added a.txt to Local History and searched for previous version of this file. | I was totally right. |
