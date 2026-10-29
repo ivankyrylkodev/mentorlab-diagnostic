@@ -96,7 +96,7 @@ The longest step was adding SSH. I read a lot documentation to understand how to
 ivankyrylko@MacBook-Pro-Ivan diagnostic %  git remote -v
 origin	git@github.com:ivankyrylkodev/mentorlab-diagnostic.git (fetch)
 origin	git@github.com:ivankyrylkodev/mentorlab-diagnostic.git (push)
-Понятия не имею  почему push теперь идёт через ключ.
+Прекрасно знаю почему push теперь идёт через ключ. Потому что я так настроил. 
 
 ## AI use
 none
