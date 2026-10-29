@@ -1,3 +1,4 @@
+## Installed
 1. I installed Puthon 3.14.10 from web. After that I ran Install Certificates.command and saw:
 
 "Last login: Wed Oct 28 15:08:45 on ttys010
@@ -64,8 +65,6 @@ init.defaultbranch=main
 Hi ivankyrylkodev! You've successfully authenticated, but GitHub does not provide shell access.
 
 
-
-## Installed
 ivankyrylko@MacBook-Pro-Ivan diagnostic % python3 --version
 Python 3.14.10
 ivankyrylko@MacBook-Pro-Ivan diagnostic % which python3
@@ -78,33 +77,6 @@ a44adf7f53e00964ab890f9f8758a334f1fc15bc
 arm64
 ivankyrylko@MacBook-Pro-Ivan diagnostic %  git config --global --show-origin --get init.defaultBranch
 file:/Users/ivankyrylko/.gitconfig	main
-
-## Commands
-cd /Users/ivankyrylko/mentor-lab/work/diagnostic (i went to folder mentor-lab/work/diagnostic)
-git init (i initialized my git)
-git add . (I added all files in folder to git)
-git commit -m "Add README and .gitignore" (I added comment about what was done)
-git branch -M main (I showed that i want to write all files in main branch)
-git remote add origin https://github.com/ivankyrylkodev/mentorlab-diagnostic.git (I connected folder with my repository)
-git push -u origin main (I send my files on my repository)
-python3 --version (I checked version of Python on my Mac)
-touch ~/.ssh/config (I created configuration file)
-open ~/.ssh/config (I opened configuration file)
-
-## Problem
-The longest step was adding SSH. I read a lot documentation to understand how to do it. I don't understand why I did it, but I did it. 
-ivankyrylko@MacBook-Pro-Ivan diagnostic %  git remote -v
-origin	git@github.com:ivankyrylkodev/mentorlab-diagnostic.git (fetch)
-origin	git@github.com:ivankyrylkodev/mentorlab-diagnostic.git (push)
-Прекрасно знаю почему push теперь идёт через ключ. Потому что я так настроил. 
-
-## AI use
-none
-## Time
-Learning 20 min
-Exersises 30 min
-
-
 ivankyrylko@MacBook-Pro-Ivan ~ % python3 --version
 Python 3.14.10
 ivankyrylko@MacBook-Pro-Ivan ~ % which python3
@@ -243,3 +215,31 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:ivankyrylkodev/mentorlab-diagnostic.git
    948e068..fcec661  main -> main
 ivankyrylko@MacBook-Pro-Ivan diagnostic %
+
+## Commands
+cd /Users/ivankyrylko/mentor-lab/work/diagnostic (i went to folder mentor-lab/work/diagnostic)
+git init (i initialized my git)
+git add . (I added all files in folder to git)
+git commit -m "Add README and .gitignore" (I added comment about what was done)
+git branch -M main (I showed that i want to write all files in main branch)
+git remote add origin https://github.com/ivankyrylkodev/mentorlab-diagnostic.git (I connected folder with my repository)
+git push -u origin main (I send my files on my repository)
+python3 --version (I checked version of Python on my Mac)
+touch ~/.ssh/config (I created configuration file)
+open ~/.ssh/config (I opened configuration file)
+
+## Problem
+The longest step was adding SSH. I read a lot documentation to understand how to do it. I don't understand why I did it, but I did it. 
+ivankyrylko@MacBook-Pro-Ivan diagnostic %  git remote -v
+origin	git@github.com:ivankyrylkodev/mentorlab-diagnostic.git (fetch)
+origin	git@github.com:ivankyrylkodev/mentorlab-diagnostic.git (push)
+Прекрасно знаю почему push теперь идёт через ключ. Потому что я так настроил. 
+"Pub file is public but i connected by secret key." "There was added SSH road to push block (git@github.com:ivankyrylkodev/mentorlab-diagnostic.git)."
+
+## AI use
+none
+## Time
+Learning 65 min
+Exersises 30 min
+
+
