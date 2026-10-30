@@ -12,6 +12,6 @@ for i in range(len(basket)):
 
 if discount > 0:
     total = total - total * discount // 100
-    print("Discount: " + discount + "%")
+    print("Discount: " + str(discount) + "%")
 
 print("Total: " + str(total) + " UAH")
