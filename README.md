@@ -6,3 +6,4 @@ It is training
 This is a practice repository containing diagnostic tasks for Mentor Lab.
 
  ## Repository layout
+- D-002: text statistics script (textstats.py)
