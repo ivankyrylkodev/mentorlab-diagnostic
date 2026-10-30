@@ -14,4 +14,4 @@ if total > budget:
     print("Over budget by " + str(total - budget) + " UAH")
 else:
     left = budget - total
-    print("Within budget. Left: " + str(lefts) + " UAH")
+    print("Within budget. Left: " + str(left) + " UAH")
