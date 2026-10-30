@@ -10,7 +10,7 @@ with open(file_name, encoding="utf-8") as f:
         if line.strip() == '':
             empty_lines += 1
         words += len(line.split())
-        longest_line = max(longest_line, len(line)-1)
+        longest_line = max(longest_line, len(line.replace("\n", "")))
 
 
 
