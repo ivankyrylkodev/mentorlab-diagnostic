@@ -15,3 +15,4 @@ it's mean that script didn't find any file with name 'dsd'.
 ## Time
 Learning 30 min
 Practise 30 min
+Variation: 21 min
