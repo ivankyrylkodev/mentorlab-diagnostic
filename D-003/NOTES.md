@@ -2,7 +2,7 @@
 Input: 3
 Error: TypeError: '>' not supported between instances of 'int' and 'str'
 Line: 13
-Cause: Budget variable is string variable in line 4 and '>' is not working with string and int value in 17 line.
+Cause: Budget variable is string variable in line 4 and '>' is not working with string and int value in 13 line.
 Change: I add int in an assignment to budget. (budget = int(input("Your budget in UAH: ")))
 
 ## Bug 2
