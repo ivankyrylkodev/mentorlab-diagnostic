@@ -1,0 +1,6 @@
+# Settings file
+name = Ivan
+   # indented comment
+
+timeout = 30 # seconds
+#
