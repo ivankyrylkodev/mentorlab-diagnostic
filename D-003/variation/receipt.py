@@ -5,7 +5,7 @@ basket = ["bread", "milk", "apples"]
 discount = int(input("Discount in percent (0-50): "))
 
 total = 0
-for i in range(len(basket) + 1):
+for i in range(len(basket)):
     item = basket[i]
     print(item + ": " + str(prices[item]) + " UAH")
     total = total + prices[item]
